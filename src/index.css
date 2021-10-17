@@ -1,13 +1,166 @@
+#header {
+  align-items: center;
+  display: flex;
+  height: auto;
+  position: relative;
+  min-width: 320px;
+  z-index: 999;
+  width: 100%;
+  background: #0d274d;
+  box-shadow: 0 5px 10px 0 rgb(0 0 0 / 80%);
+  color: white;
+  height: 100px;
+  font-size: 100%;
+  align-items: center;
+}
+.routerLink {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+button {
+  border-color: #0d274d;
+  background-color: #0d274d;
+  color: white;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  padding-bottom: 10px;
+  width: 170px;
+  height: 40px;
+  border-color: #0d274d;
+  box-shadow: 0 5px 10px 0 rgb(0 0 0 / 80%);
+  border-radius: 10px;
+}
+#headerTitle {
+  margin-left: 30px;
+  order: 1;
+  width: 25%;
+  font-size: 250%;
+}
+#headerNavHome {
+  order: 2;
+  width: 12%;
+  font-size: 150%;
+}
+#headerNavRoutines {
+  order: 3;
+  width: 12%;
+  font-size: 150%;
+}
+#headerNavMyRoutines {
+  order: 4;
+  width: 15%;
+  font-size: 150%;
+}
+#headerNavActivities {
+  order: 5;
+  width: 12%;
+  font-size: 150%;
+}
+#headerUser {
+  order: 6;
+  width: 12%;
+  font-size: 150%;
+}
+.login {
+  display: block;
+  text-align: center;
+  position: relative;
+  margin: 120px auto;
+  color: #0d274d;
+}
+
+.login input {
+  margin-bottom: 20px;
+  font-size: 20px;
+  width: 300px;
+  height: 30px;
+  text-align: center;
+}
+.login button {
+  width: 308px;
+  height: 35px;
+  font-size: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.registration {
+  display: block;
+  text-align: center;
+  position: relative;
+  margin: 120px auto;
+  color: #0d274d;
+}
+.registration input {
+  margin-bottom: 20px;
+  font-size: 20px;
+  width: 300px;
+  height: 30px;
+  text-align: center;
+}
+.registration button {
+  width: 308px;
+  height: 35px;
+  font-size: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#routines {
+  display: flex;
+  flex-direction: row;
+  column-count: 2;
+  min-width: 420px;
+  /* z-index: 999; */
+  width: 100%;
+  background: white;
+  border-color: #0d274d;
+  box-shadow: 0 5px 10px 0 rgb(0 0 0 / 80%);
+  color: black;
+  word-break: break-word;
+  margin-top: 10px;
+  padding-left: 20px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+#routinesContainer {
+  display: flex;
+  flex-direction: column-reverse;
+  width: auto;
+}
+.routineItem {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  min-width: 420px;
+  /* z-index: 999; */
+  width: 80%;
+  background: white;
+  border-color: #0d274d;
+  box-shadow: 0 5px 10px 0 rgb(0 0 0 / 80%);
+  color: black;
+  word-break: break-word;
+  margin-top: 10px;
+  padding-left: 20px;
+  overflow: hidden;
+  border-radius: 10px;
+  padding-bottom: 10px;
+}
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
