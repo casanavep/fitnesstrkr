@@ -133,6 +133,9 @@ const MyRoutines = (props) => {
   // Tracked issues:
   //   - Add and Delete Activity Buttons not yet deployed
   //       and/or functioning
+  //   - Mapping randomly breaks, but starts working after commenting, save
+  //       and uncommenting.  It's  aweird state issue that started after
+  //       changing computers.
   //
   return (
     <>
